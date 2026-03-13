@@ -1,0 +1,1 @@
+export const tableHeaders: string[] = ["Item", "Amount", "Department", "Date"];

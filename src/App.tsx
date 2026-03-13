@@ -10,7 +10,7 @@ function App() {
   const [department, setDepartment] = useState("All");
 
    const fetchExpenses = async () => {
-    const res = await fetch("http://localhost:5000/api/expenses");
+    const res = await fetch("https://fin-track-backend-1.onrender.com/expenses");
     const data = await res.json();
     setExpenses(data);
   };
